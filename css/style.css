@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body, #page, footer {
+	background-color: #f2f2f2 !important;
+}
+.container-fluid {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.content-wrapper .option-wrapper {
+	background-color: #ffffff;
+	border-radius: 6px;
+	padding: 15px 15px 50px;
+    max-height: 625px;
+    overflow: auto;
+}
+.content-wrapper h1 {
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+.content-wrapper .option-wrapper h2 {
+	font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.content-wrapper .option-wrapper .side-heading {
+	text-align: center;
+    border-bottom: 1px solid #dddddd;
+    max-width: 155px;
+    margin: 0 auto 12px;
+}
+.content-wrapper .option-wrapper .side-heading p {
+	margin-bottom: 3px;
+	font-size: 16px;
+}
+.content-wrapper .option-wrapper .buttons {
+	max-width: 188px;
+	margin: auto;
+}
+.content-wrapper .option-wrapper .buttons button {
+    margin: 0px 15px 15px;
+    color: #000000;
+    background-color: #c5e09b;
+    border: none;
+    outline: none;
+    padding: 3px 16px;
+    border-radius: 5px;
+    transition: 0.1s all linear;
+    max-width: 64px;
+    width: 100%;
+    display: block;
+    float: left;
+}
+.prog-wrap {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+.prog-wrap .img-wrap {
+	background-color: #f2f2f2;
+}
+.prog-wrap .img-wrap, .prog-wrap .img-wrap img {
+	min-height: 184px;
+	max-height: 184px;
+	width: 100%;
+}
+.prog-wrap .points-wrap>h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4a4f99;
+}
+.prog-wrap .points-wrap>h3 + p {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.prog-wrap .points-wrap>h3 + p + ul {
+	padding: 0px 0px 0px 25px;
+}
+.prog-wrap .points-wrap>h3 + p + ul li {
+	color: #4a4f99;
+}
+.prog-wrap .points-wrap p {
+	color: #4a4f99;
+}
+.prog-wrap .points-wrap p strong {
+	color: #000000;
+}
+.prog-wrap .points-wrap .success .left {
+	float: left;
+}
+.prog-wrap .points-wrap .success .right {
+	float: right;
+}
+.prog-wrap .points-wrap .success .clearfix {
+	clear: both;
+}
+#flight_results .col-lg-3, #flight_results .row{
+	display: flex;
+}
+footer .content-wrapper {
+	text-align: center;
+	padding: 20px 0px 30px;
+}
+footer .content-wrapper p {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.lg-width-80.col-lg-9 {
+    position: relative;
+    min-height: 500px;
+}
+.no-results {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.prog-wrap .img-wrap {
+	background-image: url(../assets/favicon.png);
+	background-size: 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-blend-mode: luminosity;
+}
+.mission-ids {
+	text-transform: lowercase;
+}
+.img-wrap:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #f2f2f2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* To Overright All the Styles on Focus */
+button:focus {
+	outline: 3px dotted #4a4f99 !important;
+	transition: unset !important;
+}
+.active {
+	background-color: #7db901 !important;
+    box-shadow: 0px 0px 3px #000000;
+}
+/* Screen Reader Only CSS */
+.screen-reader-only {
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.a11y-outline-none {
+	outline: none !important;  
+}
+.a11y-outline-lg-white:focus {
+	outline: 3px dotted #ffffff !important;
+	outline-offset: -3px;
+}
+.found-results {
+	position: relative;
+    top: 0;
+    background: #4b5099;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bold;
+    display: none;
+    z-index: 111;
+    width: 100%;
+    text-align: center;
+}
+.jump-links {
+	max-width: 100%;
+    z-index: 100;
+    padding: 6px;
+    border-radius: 5px;
+    display: none;
+    background: #ddd;
+    display: none;
+    position: relative;
+}
+.jump-links .jump-link-btn {	
+	background: #ddd;
+    border: 1px solid #000;
+    padding: 5px;
+    color: #000000;
+    font-size: 14px;
+    margin: 0px 5px 0px 0px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+button.close-button {
+    width: 32px;
+    height: 25px;
+    background: #ddd;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 22px;
+    padding-bottom: 30px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}

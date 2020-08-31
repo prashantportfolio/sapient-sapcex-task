@@ -1,0 +1,123 @@
+@media (max-width: 360px) {
+	.jump-links .jump-link-btn {
+	    padding: 2px;
+	    font-size: 14px;
+	    margin: 0px 1px 0px 0px;
+	    font-size: 10px;
+	}
+	button.close-button {
+	    width: 25px;
+	    height: 25px;
+	    font-size: 16px;
+	    padding-bottom: 20px;
+	    top: 4px;
+	}
+}
+@media (max-width: 700px) {
+	.content-wrapper .option-wrapper .buttons {
+		text-align: center;
+	}
+	.content-wrapper .option-wrapper .buttons button {
+		width: 40%;
+		float: left;
+	}
+	.content-wrapper .option-wrapper {
+		margin-bottom: 30px;
+	}
+	.prog-wrap .img-wrap, .prog-wrap .img-wrap img {
+		width: auto;
+		display: block;
+		margin: auto;
+	}
+	.prog-wrap .img-wrap {
+	    background-color: #f2f2f2;
+	}
+	.prog-wrap .points-wrap .success .left, .prog-wrap .points-wrap .success .right {
+		float: unset;
+		display: inline-block;
+	}
+	.success br {
+		display: none;
+	}
+}
+@media (max-width: 510px) {
+	.jump-links {
+		max-width: 100%;
+		width: 100%;
+	}
+	.jump-links .jump-link-btn {
+		top: -135px;
+	}
+	.jump-link-btn:focus {
+	    top: -100px;
+	}
+}
+@media (min-width: 992px) {
+	.col-lg-3.col-md-3.col-sm-12.col-xs-12.lg-width-20 {
+		position: sticky;
+		top: 20px;
+		max-height: 625px;
+		overflow: auto;
+	}
+}
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+	.content-wrapper .option-wrapper {
+		margin-bottom: 30px;
+	}
+	.lg-width-80 .col-xs-12 {
+		width: 50%;
+	}
+	.prog-wrap .points-wrap .success .left, .prog-wrap .points-wrap .success .right {
+		float: unset;
+		display: inline-block;
+	}
+	.content-wrapper .option-wrapper .buttons {
+		text-align: center;
+	}
+	.content-wrapper .option-wrapper .buttons button {
+		width: 40%;
+		float: left;
+	}
+	.success br {
+		display: none;
+	}
+	.prog-wrap {
+	    min-height: 440px;
+	    overflow: auto;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1257px) {
+	.prog-wrap .points-wrap .success .left, .prog-wrap .points-wrap .success .right {
+		float: unset;
+		display: inline-block;
+		margin: 0;
+	}
+	.success br {
+		display: none;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1233px) {
+	.content-wrapper .option-wrapper .buttons button {
+	    margin: 0px 13px 15px;
+	}
+}
+@media screen and (min-width: 1234px) and (max-width: 1240px) {
+	.content-wrapper .option-wrapper .buttons button {
+	    margin: 0px 13px 15px;
+	}
+}
+@media (min-width: 1200px) {
+	.lg-width-20.col-lg-3 {
+	    width: 20%;
+	}
+	.lg-width-80.col-lg-9 {
+	    width: 80%;
+	    position: relative;
+	    min-height: 500px;
+	}
+}
+@media (max-width: 1024px) {
+	#flight_results .col-lg-3, #flight_results .row{
+		display: block;
+	}
+}
